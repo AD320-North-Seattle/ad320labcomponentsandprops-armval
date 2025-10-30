@@ -1,7 +1,13 @@
+import bananaBread from "../assets/banana_bread.jpg";
+import pumpkinBread from "../assets/pumpkin_bread.jpg";
+import orangeLemonNutBread from "../assets/orange_lemon_nut_bread.jpg";
+import zucchiniBread from "../assets/zucchini_bread.jpg";
+
 //Note: These are family recipes from the professor who wrote this lab, feel free to make them!
 export const recipes = [
   {
     name: "Banana Bread",
+    image: bananaBread,
     ingredients: [
       "¼ cup shortening",
       "1 cup sugar",
@@ -24,6 +30,7 @@ export const recipes = [
   },
   {
     name: "Pumpkin Bread",
+    image: pumpkinBread,
     ingredients: [
       "3 cups Bisquick",
       "1 cup sugar",
@@ -65,6 +72,7 @@ export const recipes = [
   },
   {
     name: "Orange and Lemon Nut Bread",
+    image: orangeLemonNutBread,
     ingredients: [
       "3 cups Bisquick",
       "⅔ cup sugar",
@@ -99,6 +107,7 @@ export const recipes = [
   },
   {
     name: "Zucchini Bread",
+    image: zucchiniBread,
     ingredients: [
       "1 ¼ cups sugar",
       "3 eggs",
